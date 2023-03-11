@@ -1,0 +1,13 @@
+.place__website {
+    grid-area: place__website;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+@media all and (max-width:320px) {
+    .place__website {
+        margin: 0 5%;
+        max-width: 288px;
+    }
+}

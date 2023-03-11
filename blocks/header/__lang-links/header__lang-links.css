@@ -1,0 +1,21 @@
+.header__lang-links {
+    display: flex;
+    column-gap: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: flex-end;
+}
+
+
+@media all and (max-width:320px) {
+
+    .header__lang-links {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

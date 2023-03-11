@@ -1,0 +1,23 @@
+.cover__subtitle {
+    text-align: center;
+    position: absolute;
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 122%;
+    font-weight: 400;
+    top: 57.725%;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+}
+
+@media all and (max-width:320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 114%;
+        top: 58.6%;
+        left: 5%;
+        max-width: 288px;
+        transform: translate(0%);
+    }
+}
