@@ -8,3 +8,17 @@
         max-width: 100%;
     }
 }
+
+@media all and (max-width: 768px) {
+    .cover {
+        margin: 90px auto 88px;
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover {
+        margin: 66px auto 64px;
+
+    }
+}

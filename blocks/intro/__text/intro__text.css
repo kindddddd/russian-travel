@@ -6,10 +6,3 @@
     margin: 0 0 33px;
     max-width: 690px;
 }
-
-@media all and (max-width:320px) {
-    .intro__text {
-        margin: 0 0 33px;
-    }
-
-}

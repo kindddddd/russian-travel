@@ -11,14 +11,14 @@
 
 @media all and (max-width:1024px) {
     .lead__caption {
-        margin: 8px 3% 92px;
+        margin: 8px 0 92px;
     }
 }
 
 @media all and (max-width:768px) {
 
     .lead__caption {
-        margin: 8px 3% 88px;
+        margin: 8px 3.11% 88px;
     }
 
 }

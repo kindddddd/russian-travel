@@ -10,6 +10,22 @@
     box-sizing: border-box;
 }
 
+
+@media all and (max-width: 767px) {
+    .lead__title {
+        font-size: 55px;
+        max-width: 460px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+    }
+}
+
+
 @media all and (max-width:320px) {
 
     .lead__title {

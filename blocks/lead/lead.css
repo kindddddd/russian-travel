@@ -7,22 +7,15 @@
 
 @media all and (max-width:1024px) {
     .lead {
-        max-width: 928px;
+        max-width: calc(100% - 96px);
     }
 
 }
 
 @media all and (max-width:768px) {
     .lead {
-        max-width: 720px;
+        max-width: 100%;
         margin: 0;
-    }
-
-}
-
-@media all and (max-width:320px) {
-    .lead {
-        max-width: 320px;
     }
 
 }

@@ -15,7 +15,7 @@
     }
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:390px) {
     .place__image {
         width: 320px;
     }

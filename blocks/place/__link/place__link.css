@@ -9,3 +9,10 @@
 .place__link:hover {
     opacity: 0.8;
 }
+
+@media all and (max-width:610px) {
+    .place__link {
+        font-size: 14px;
+        line-height: 122%;
+    }
+}

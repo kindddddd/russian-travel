@@ -1,5 +1,5 @@
 .header {
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
     display: flex;
     justify-content: space-between;
     margin: 0 auto 56px;
@@ -8,21 +8,19 @@
 
 @media all and (max-width:1024px) {
     .header {
-        max-width: 928px;
         margin: 0 auto 48px;
     }
 }
 
 @media all and (max-width:768px) {
     .header {
-        max-width: 720px;
+        max-width: calc(100% - 48px);
     }
 }
 
 
 @media all and (max-width:320px) {
     .header {
-        max-width: 288px;
         padding-top: 16px;
     }
 }
