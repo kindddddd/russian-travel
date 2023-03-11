@@ -1,25 +1,12 @@
 .place__paragraph {
-    grid-area: place__paragraph;
     margin: 0;
     font-size: 18px;
     line-height: 163%;
     font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-
 }
 
 @media all and (max-width:768px) {
     .place__paragraph {
         font-size: 16px;
     }
-}
-
-@media all and (max-width:320px) {
-    .place__paragraph {
-        max-width: 288px;
-        margin: 0 auto;
-    }
-
 }

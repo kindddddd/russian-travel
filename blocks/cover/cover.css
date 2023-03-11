@@ -1,29 +1,10 @@
 .cover {
     margin: 92px auto 92px;
     max-width: 1184px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-@media all and (max-width:1024px) {
+@media all and (max-width: 1024px) {
     .cover {
-        max-width: 1024px;
-
-    }
-}
-
-@media all and (max-width:768px) {
-    .cover {
-        max-width: 768px;
-        margin: 90px auto 90px;
-    }
-
-}
-
-@media all and (max-width:320px) {
-    .cover {
-        max-width: 320px;
-        margin: 66px auto 94px;
+        max-width: 100%;
     }
 }
