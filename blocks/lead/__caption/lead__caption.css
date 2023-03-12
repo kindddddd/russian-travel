@@ -9,12 +9,6 @@
     padding: 0;
 }
 
-@media all and (max-width:1024px) {
-    .lead__caption {
-        margin: 8px 0 92px;
-    }
-}
-
 @media all and (max-width:768px) {
 
     .lead__caption {

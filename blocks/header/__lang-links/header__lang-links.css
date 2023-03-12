@@ -6,12 +6,3 @@
     margin: 0;
     align-items: flex-end;
 }
-
-
-@media all and (max-width:320px) {
-
-    .header__lang-links {
-        font-size: 18px;
-        line-height: 20px;
-    }
-}
